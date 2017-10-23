@@ -69,6 +69,8 @@ promo_code_applied_successfully:
 "İndirim kodu başarılı bir şekilde uygulanmıştır.",
 promo_code_is_invalid:
 "İndirim kodu geçersiz.",
+promo_code_is_expired:
+"İndirim kodu geçersiz.",
 promo_code_code:
 "İndirim kodunuz mu var?",
 promo_code_rate_on_order:
@@ -152,7 +154,7 @@ forgot_password_email_sent_message:
 login_checkout_as_guest:
 "Misafir olarak Satın Al",
 login_checkout_as_guest_notice:
-"At the end of the checkout process, you will be offered the possibility to create an account using the information you entered during the checkout process.",
+"Checkout as a guest if you don't want to create an account for this purchase. Please note that your information won't be saved for your next orders.",
 shipping_address_same_as_billing:
 "Bu adresi taşıma adresi olarak kullan",
 shipping_method_method_name:
@@ -287,4 +289,28 @@ order_invoice_number:
 "Fatura numarası",
 order_authorization_code:
 "Yetki kodu",
+cart_plans_interval:
+"Aralığı",
+cart_plans_interval_count:
+"Sayısı",
+subscription_plan_interval:
+"plan aralığı",
+subscription_plan_interval_count:
+"planı Aralık sayısı",
+plan_amount_per_day:
+"{0} / gün",
+plan_amount_per_week:
+"{0} / hafta",
+plan_amount_per_month:
+"{0} / ay",
+plan_amount_per_year:
+"{0} / sene",
+plan_amount_per_day_plural:
+"{0} / {1} gün",
+plan_amount_per_week_plural:
+"{0} / {1} hafta",
+plan_amount_per_month_plural:
+"{0} / {1} ay",
+plan_amount_per_year_plural:
+"{0} / {1} yıl"
 });

@@ -69,6 +69,8 @@ Snipcart.execute('registerLocale', 'it', {
     "Il codice promozionale è stato applicato con successo.",
     promo_code_is_invalid:
     "Il codice promozionale inserito non è valido.",
+    promo_code_is_expired:
+    "Il codice promozionale inserito non è valido.",
     promo_code_code:
     "Avete uno sconto?",
     promo_code_rate_on_order:
@@ -130,7 +132,7 @@ Snipcart.execute('registerLocale', 'it', {
     cart_items_table_total_price:
     "Prezzo Totale",
     cart_empty_text:
-    "Il tuo carrello è vuoto. Selezionare un prodotto da aquistare prima di ordinare.",
+    "Il tuo carrello è vuoto. Selezionare un prodotto da acquistare prima di ordinare.",
     new_account_form_create_new_account:
     "Crea un account di accesso",
     new_account_form_create_new_account_action:
@@ -298,5 +300,29 @@ Snipcart.execute('registerLocale', 'it', {
     loading:
     "Caricamento...",
     free_shipping:
-    "Spedizione gratuita"
+    "Spedizione gratuita",
+    cart_plans_interval:
+    "Intervallo",
+    cart_plans_interval_count:
+    "Conteggio",
+    subscription_plan_interval:
+    "Intervallo di piano",
+    subscription_plan_interval_count:
+    "piano intervallo conteggio",
+    plan_amount_per_day:
+    "{0} / giorno",
+    plan_amount_per_week:
+    "{0} / settimana",
+    plan_amount_per_month:
+    "{0} / mese",
+    plan_amount_per_year:
+    "{0} / anno",
+    plan_amount_per_day_plural:
+    "{0} / {1} giorni",
+    plan_amount_per_week_plural:
+    "{0} / {1} settimane",
+    plan_amount_per_month_plural:
+    "{0} / {1} mesi",
+    plan_amount_per_year_plural:
+    "{0} / {1} anni"
 });

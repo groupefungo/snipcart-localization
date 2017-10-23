@@ -11,8 +11,12 @@ checkout:
 "Checkout",
 close:
 "Close",
+first_name:
+"First name",
 name:
 "Name",
+last_name:
+"Last name",
 company_name:
 "Company name",
 share_by_email:
@@ -63,12 +67,22 @@ confirm_order:
 "Confirm order",
 bill_me_later:
 "Bill me later",
+bill_me_later_action:
+"Pay later",
 bill_me_later_explanation:
 "An invoice will be sent to you by email.",
+pay_via_mollie:
+"Choose payment method",
+pay_now_via_mollie:
+"Pay now",
+pay_via_mollie_explanation:
+"You'll be redirected to a list of available payment options.",
 promo_code_applied_successfully:
 "Your Discount has been applied successfully.",
 promo_code_is_invalid:
 "The promo code is invalid.",
+promo_code_is_expired:
+"This promo code has expired.",
 promo_code_code:
 "Have a Discount?",
 promo_code_rate_on_order:
@@ -89,6 +103,8 @@ payment_informations:
 "Payment information",
 payment_informations_bill_me_later:
 "I will pay later",
+payment_informations_no_payment_required:
+"No payment required",
 payment_informations_paypalexpress:
 "Payment with Paypal",
 credit_card_type_mastercard:
@@ -156,7 +172,7 @@ forgot_password_email_sent_message:
 login_checkout_as_guest:
 "Checkout as a guest",
 login_checkout_as_guest_notice:
-"At the end of the checkout process, you will be offered the possibility to create an account using the information you entered during the checkout process.",
+"Checkout as a guest if you don't want to create an account for this purchase. Please note that your information won't be saved for your next orders.",
 shipping_address_same_as_billing:
 "Use this address for shipping",
 shipping_method_method_name:
@@ -174,13 +190,15 @@ payment_method_card_type:
 payment_method_card_number:
 "Card number",
 payment_method_card_cvc:
-"CSC",
+"CVC",
 payment_method_card_exp_month:
-"Expiration month / year",
+"Expiration month",
 payment_method_card_exp_year:
 "Expiration year",
 payment_method_cvc_infos:
 "The CVC is the 3 digits security number behind your credit card, usually at the right of your signature.",
+payment_status:
+"Payment status",
 create_an_account:
 "Create a login",
 why_create_account:
@@ -190,7 +208,7 @@ reset_password:
 reset_password_success:
 "Reset password completed",
 reset_password_changed:
-"Your passsword has been changed.",
+"Your password has been changed.",
 reset_password_click_here_to_login:
 "Click here to login",
 thankyou_message:
@@ -203,8 +221,10 @@ account_created_successfully_message:
 "Your account has been successfully created, thank you.",
 errors_required:
 "This field is required",
+errors_passwords_dont_match:
+"Both passwords must match",
 errors_email_must_be_unique:
-"An user with the same email already exists",
+"A user with the same email already exists",
 errors_both_password_must_match:
 "Both passwords must match",
 errors_email_must_be_valid:
@@ -216,13 +236,17 @@ errors_email_does_not_match_reset_password_request:
 errors_reset_password_token_expired:
 "The reset password token has expired.",
 errors_invalid_authentication_infos:
-"Invalid authentication informations",
+"Invalid authentication information",
 error_payment_items_empty:
 "It seems that your order is invalid, please reload the page. Your credit card has not been charged.",
 error_payment_items_are_invalid:
 "We have not been able to complete your order. It seems that one of the items in your cart has an invalid price.",
 error_crawling_failed:
 "We have not been able to validate your order, your credit card has not been charged, please try again in a few moments.",
+error_discounts_have_expired:
+"Unfortunately one of the discount you had has expired before you completed the checkout process. Please review the order below and try again.",
+error_shipping_price_outdated:
+"The shipping option you selected is not valid anymore, please choose another shipping method.",
 powered_by:
 "Powered and secured by",
 promocode_rate_format:
@@ -240,7 +264,7 @@ welcome:
 back:
 "Back",
 order_infos:
-"Order infos",
+"Order info",
 generic_error_title:
 "Oops, an error occured.",
 promocode_deleted_at_checkout:
@@ -260,7 +284,7 @@ send_error:
 message_sent:
 "Message sent, thank you",
 paypalexpress_loading:
-"You will be redirected to Paypal to make the payment soon.",
+"Just a few seconds...",
 paypalexpress_cancelled:
 "You cancelled the transaction, you can either click on the button below to try again or simply continue to shop.",
 retry:
@@ -307,6 +331,8 @@ cart_plans_name:
 "Plan",
 cart_plans_interval:
 "Interval",
+cart_plans_interval_count:
+"Count",
 cart_plans_quantity:
 "Quantity",
 cart_plans_amount:
@@ -323,6 +349,8 @@ upcoming_payment_amount:
 "Total",
 upcoming_payment_subtotal:
 "Subtotal",
+upcoming_payment_shipping:
+"Shipping",
 upcoming_payments:
 "Next payments",
 order_date:
@@ -333,8 +361,10 @@ order_total:
 "Total",
 orders_history:
 "My orders",
+subscriptions_history_no_subscriptions:
+"You don't have any subscriptions yet.",
 orders_history_no_orders:
-"You don't actually have any orders.",
+"You don't have any orders yet.",
 orders_fetching_orders:
 "Loading your orders...",
 user_nav_orders:
@@ -363,6 +393,8 @@ subscription_plan_name:
 "Plan name",
 subscription_plan_interval:
 "Plan interval",
+subscription_plan_interval_count:
+"Plan interval count",
 subscription_invoice_number:
 "Number",
 subscription_invoice_date:
@@ -395,12 +427,22 @@ plan_amount_per_month:
 "{0} / month",
 plan_amount_per_year:
 "{0} / year",
+plan_amount_per_day_plural:
+"{0} / {1} days",
+plan_amount_per_week_plural:
+"{0} / {1} weeks",
+plan_amount_per_month_plural:
+"{0} / {1} months",
+plan_amount_per_year_plural:
+"{0} / {1} years",
 plan_days_of_trial:
 "{0} days trial",
 subscription_cancel_button:
-"Cancel this subscription",
+"Cancel",
+subscription_pause_button:
+"Pause",
 subscription_cancel_confirmation:
-"Are you sure you want to cancel your subscription ?",
+"Are you sure you want to cancel your subscription?",
 subscription_cancel_success:
 "Your subscription has been cancelled successfully.",
 subscription_cancelled_notice:
@@ -416,5 +458,99 @@ paypal_express_checkout_explanation:
 notifications_item_not_added_due_to_max_quantity:
 "The product has not been added, you already have the maximum quantity in your cart.",
 error_impossible_to_calculate_taxes:
-"We have not been able to calculate taxes for the order, it might be due to an invalid address, please ensure you entered a valid address with a 5 digits ZIP code."
+"We have not been able to calculate taxes for the order, it might be due to an invalid address, please ensure you entered a valid address with a 5 digits ZIP code.",
+have_a_promocode_question:
+"Promo code?",
+order_totals_computing:
+"Calculating taxes...",
+order_validation_failed:
+"We have not been able to validate your order. Looks like some product prices might have changed since you added them to the cart. Please review your order and try again.",
+item_invalid_must_remove:
+"It looks like this item is not available anymore. You may need to contact the merchant to get this resolved as it may be a configuration problem. By continuing this item will be removed from your cart.",
+accept_cart_changes:
+"Accept changes and continue",
+payment_failed_text:
+"Sorry; we haven’t been able to process your payment. You can continue shopping or try again using the buttons below.",
+payment_method_willbepaidlater:
+"Deferred",
+payment_method_paypal:
+"Paypal",
+payment_method_none:
+"None",
+payment_method_sofort:
+"Sofort",
+payment_method_ideal:
+"Ideal",
+payment_method_mistercash:
+"Mister Cash",
+payment_method_banktransfer:
+"Bank transfer",
+payment_method_directdebit:
+"Direct debit",
+payment_method_belfius:
+"Belfius",
+payment_method_bitcoin:
+"Bitcoin",
+payment_method_podiumcadeaukaart:
+"Podium Cadeau Kaart",
+payment_method_paysafecard:
+"PaySafe card",
+payment_method_bancontact:
+"Bancontact",
+payment_method_creditcard:
+"Credit card",
+error_item_stock_exceeded:
+"Sorry! Your request exceeds the available stock for this item.",
+error_item_out_of_stock_text:
+"Sorry! Looks like this product is not available anymore. We suggest you check out later.",
+item_out_of_stock_with_variant:
+"Sorry! Looks like this variation of the product isn't available anymore. Please select another variation or this item will be removed from the cart.",
+order_status_processed:
+"Processed",
+order_status_disputed:
+"Disputed",
+order_status_shipped:
+"Shipped",
+order_status_delivered:
+"Delivered",
+order_status_pending:
+"Pending",
+order_status_cancelled:
+"Canceled",
+something_went_wrong_while_fetching_rates:
+"We have not been able to find any shipping methods for the address you specified. Contact us directly if you need help regarding this.",
+error_must_select_shipping_rate:
+"You must select shipping method to continue.",
+back_to_orders:
+"Back to orders",
+manage_subscriptions:
+"Manage subscriptions",
+back_to_subscriptions_list:
+"Back to subscriptions list",
+back_to_subscription_details:
+"Back to subscription details",
+discount_remove_confirmation_msg:
+"Are you sure you want to remove the discount?",
+digital_files_not_found:
+"One or more digital files don't exist, contact the store owner for further details.",
+digital_files_download_button:
+"Download file",
+notifications_item_not_modified_due_to_min_quantity:
+"Sorry, you need to order at least {0} of this product.",
+subscription_resume_buttom:
+"Resume",
+subscription_summary:
+"Summary",
+subscription_notifications_paused:
+"This subscription is currently paused, you can resume it by clicking on the Resume button.",
+subscription_notifications_pause_confirm:
+"Are you sure you want to pause your subscription?",
+subscription_notifications_resume_confirm:
+"Are you sure you want to resume this subscription?",
+subscription_status_canceled:
+"Canceled",
+subscription_status_paused:
+"Paused",
+refund_line:
+"Refunded"
 });

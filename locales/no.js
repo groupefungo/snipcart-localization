@@ -1,30 +1,30 @@
-﻿Snipcart.execute('registerLocale', 'da', {
+Snipcart.execute('registerLocale', 'no', {
 yes:
 "Ja",
 no:
-"Nej",
+"Nei",
 print:
-"Print",
+"Skriv ut",
 download_as_pdf:
-"Download som PDF",
+"Last ned som PDF",
 checkout:
 "Til kassen",
 close:
-"Luk",
+"Lukk",
 name:
 "Navn",
 company_name:
-"Virksomhedsnavn",
+"Firmanavn",
 share_by_email:
-"Del via Email",
+"Del via e-post",
 email:
-"Email",
+"E-post",
 password:
-"Password",
+"Passord",
 confirm_password:
-"Bekræft password",
+"Bekreft passord",
 ok:
-"OK",
+"Ok",
 send:
 "Send",
 address_1:
@@ -32,63 +32,63 @@ address_1:
 address_2:
 "Adresse 2",
 city:
-"By",
+"Poststed",
 postal_code:
 "Postnummer",
 phone:
-"Telefon nr.",
+"Telefonnummer",
 previous:
-"Tilbage",
+"Tilbake",
 next:
-"Videre",
+"Neste",
 finalize:
-"Bestil",
+"Kjøp",
 country:
 "Land",
 subtotal:
-"Subtotal",
+"Totalt",
 rebate:
-"Rabat",
+"Rabatt",
 apply_promo_code:
-"Indtast rabatkode",
+"Rabattkode",
 my_cart:
-"Indkøbskurv",
+"Handlekurv",
 continue_shopping:
-"Bestil mere",
+"Fortsett å handle",
 my_cart_content:
-"Indhold i indkøbskurv",
+"Handlekurv",
 shipping_method:
-"Forsendelse",
+"Frakt",
 payment_method:
-"Bestillings metode",
+"Bestill og betal",
 confirm_order:
-"Bekræft ordren",
+"Betal og fullfør",
 bill_me_later:
 "Betal senere",
 bill_me_later_explanation:
-"Du får en faktura tilsendt per email",
+"Du får en faktura tilsendt på e-post",
 promo_code_applied_successfully:
-"Din rabatkode er blevet tilføjet.",
+"Rabattkoden er godkjent.",
 promo_code_is_invalid:
-"Din rabatkode er ugyldig.",
+"Rabattkoden er ugyldig.",
 promo_code_is_expired:
-"Din rabatkode er ugyldig.",
+"Rabattkoden er utløpt.",
 promo_code_code:
-"Har du en rabatkode?",
+"Har du en rabattkode?",
 promo_code_rate_on_order:
-"Rabat ved ordren",
+"Rabatt",
 promo_code_alternate_price:
-"Specialpris på produkter",
+"Ny pris",
 total:
-"Total",
+"Totalsum",
 province_state:
-"Region",
+"Fylke",
 billing_address:
 "Betalingsadresse",
 shipping_address:
 "Leveringsadresse",
 payment_informations:
-"Betalingsinformation",
+"Betalingsinformasjon",
 payment_informations_bill_me_later:
 "Betal senere",
 payment_informations_paypalexpress:
@@ -104,11 +104,11 @@ months_january:
 months_february:
 "Februar",
 months_march:
-"Marts",
+"Mars",
 months_april:
 "April",
 months_may:
-"Maj",
+"Mai",
 months_june:
 "Juni",
 months_july:
@@ -122,199 +122,197 @@ months_october:
 months_november:
 "November",
 months_december:
-"December",
+"Desember",
 cart_items_table_item:
-"Vare",
+"Varer",
 cart_items_table_description:
 "Beskrivelse",
 cart_items_table_quantity:
-"Antal",
+"Antall",
 cart_items_table_unit_price:
-"Enhedspris",
+"Pris",
 cart_items_table_total_price:
-"I alt",
+"Totalt",
 cart_empty_text:
-"Indkøbskurven er tom.",
+"Handlekurven er tom.",
 new_account_form_create_new_account:
-"Opret et login",
+"Lag ny bruker",
 new_account_form_create_new_account_action:
-"Opret login",
+"Lag ny bruker",
 login_form_having_an_account:
-"Log ind",
+"Logg inn",
 login_form_login_action:
-"Log ind",
+"Logg inn",
 login_form_forgot_password_action:
-"Glemt password",
+"Glemt passord",
 forgot_password_forgot_your_password:
-"Glemt password?",
+"Glemt passord?",
 forgot_password_please_enter_email:
-"Indtast din email. Der vil blive sendt en email, så du kan nulstille dit password.",
+"Oppgi e-postadressen din i feltet under, så sender vi deg nytt passord.",
 forgot_password_success_email_sent:
-"Email er blevet sendt",
+"E-posten med nytt passord er nå sendt",
 forgot_password_email_sent_message:
-"Du vil modtage en mail med instrukser om, hvordan du nustiller dit password.",
+"Du vil nå motta en e-post med instrukser for hvordan du kan opprette et nytt passord.",
 login_checkout_as_guest:
-"Betal uden at logge ind",
+"Bestill som gjest",
 login_checkout_as_guest_notice:
-"I slutningen af betalingsprocessen, vil du få muligheden for at oprette en konto, med de indtastet informationer.",
+"Du kan velge om du vil lage en bruker i slutten av prosessen.",
 shipping_address_same_as_billing:
-"Brug denne adresse til levering",
+"Bruk samme adresse til levering",
 shipping_method_method_name:
-"Leveringsmetode",
+"Leveringsmåte",
 shipping_method_shipping_price:
-"Leveringspris",
+"Fraktkostnad",
 shipping_method_failure_message:
-"Det var ikke muligt at finde den ønskede levereringsmetode. Venligst tjek om din adresse er rigtig og prøv igen",
+"Denne fraktmåten kan ikke benyttes til din adresse. Vennligst sjekk at adressen du har skrevet inn er korrekt.",
 shipping_method_failure_click_here_to_edit:
-"Klik her for at ændre leveringsadresse",
+"Klikk her for å endre leveringsadresse",
 payment_method_card_holder:
-"Kortholders navn",
+"Navn på kortholder",
 payment_method_card_type:
 "Korttype",
 payment_method_card_number:
-"Kort nummer",
+"Kortnummer",
 payment_method_card_cvc:
 "CVC",
 payment_method_card_exp_month:
-"Udløbsmåned",
+"Måned",
 payment_method_card_exp_year:
-"Udløbsår",
+"År",
 payment_method_cvc_infos:
-"CVC er et trecifret tal, der findes på bagsiden at dit betalingskort, typisk placeret til højre for din signatur.",
+"For å sørge for at du er eier av kortet krever vi at du oppgir en 3-sifret sikkerhetskode som du finner på baksiden av kortet ditt.",
 create_an_account:
-"Opret et log ind",
+"Lag bruker",
 why_create_account:
-"For at lave en hurtigere bestilling næste gang, skal du indtaste et password for at oprette en profil.",
+"Registrer en konto for å gjøre bestillingen raskere neste gang!",
 reset_password:
-"Nulstil password",
+"Nullstill passord",
 reset_password_success:
-"Dit password er nu blevet nulstilt",
+"Ditt passord er nå nullstilt",
 reset_password_changed:
-"Dit password er blevet ændret.",
+"Ditt passord er nå endret.",
 reset_password_click_here_to_login:
-"Klik her for at logge ind",
+"Klikk her for å logge inn",
 thankyou_message:
-"Tak for din bestilling. Der vil blive sendt en ordrebekræftelse til din email.",
+"Takk for at du bestilte hos oss.",
 thankyou_submessage:
-"Du vil modtage en ordrebekræftelse hurtigst muligt.",
+"Du vil nå motta en e-post med ordrebekreftelsen!",
 account_created_successfully:
-"Din profil er blevet oprettet.",
+"Profil oprettet.",
 account_created_successfully_message:
-"Din profil er blevet oprettet.",
+"Du har opprettet en profil!",
 errors_required:
-"Skal udfyldes",
+"Feltet må fylles ut",
 errors_email_must_be_unique:
-"Der findes allerede en konto med din e-mail-adresse",
+"E-postadressen er allerede i bruk",
 errors_both_password_must_match:
-"Passwords stemmer ikke overens",
+"Passordene stemmer ikke overens",
 errors_email_must_be_valid:
-"Indtast venligst en rigtig email.",
+"Tast inn en ekte e-postadresse",
 errors_email_does_not_match_any_existing_user:
-"Der findes ingen bruger med denne email",
+"Denne e-posten har ingen konto",
 errors_email_does_not_match_reset_password_request:
-"Emailen passer ikke med en tidligere anmodning om at nulstille password",
+"E-posten stemmer ikke",
 errors_reset_password_token_expired:
-"Koden er udløbet.",
+"Be om nytt passord igjen.",
 errors_invalid_authentication_infos:
-"Udgyldig identifikationsinformationer",
+"E-post og/eller passordet er feil",
 error_payment_items_empty:
-"Din ordre er ugyldig. Opdatere venligst siden og prøv igen. Der er ikke blevet hævet penge fra dit kredit kort.",
+"Vi kan for øyeblikket ikke gjennomføre din bestilling. Prøv igjen om et øyeblikk!",
 error_payment_items_are_invalid:
-"Det er ikke muligt at gennemføre din ordre. En af varerne har en ugyldig pris.",
+"Det er ikke mulig å gjennomføre din bestilling. En av varerne har en ugyldig pris. Ta kontakt med kundestøtte så fort som mulig!",
 error_crawling_failed:
-"Det var ikke muligt at gennemføre ordren. Der er ikke blevet hævet penge fra dit kredit kort. Prøv venligst igen senere.",
+"Det er ikke mulig å gjennomføre din bestilling. Vennligst kontakt kundestøtte.",
 powered_by:
-"Powered and secured by",
+"Drevet og sikret av",
 promocode_rate_format:
-"{0}% rabat på din ordre",
+"{0}% rabatt på din ordre",
 promocode_amount_format:
-"{0} rabat på din ordre",
+"{0} rabatt på din ordre",
 shipping_method_business_days:
-"{0} leveringsdage",
+"{0} virkedager",
 shipping_method_business_day:
-"{0} arbejdsdage",
+"{0} virkedag",
 shipping_method_delivery_time:
 "Til {0}", // By 2013-11-28
 welcome:
 "Velkommen",
 back:
-"Tilbage",
+"Tilbake",
 order_infos:
-"Ordreinformation",
+"Ordreinformasjon",
 generic_error_title:
-"Uups, der skete en fejl.",
+"Oops, en feil oppstod.",
 promocode_deleted_at_checkout:
-"Din rabat kode er blevet brugt og er ikke brugbar mere.",
+"Denne rabattkoden er allerede brukt.",
 continue_shopping:
-"Forsæt med at købe",
+"Fortsett å handle",
 payment_required_message:
-"Betalingssystemet er ikke tilgængeligt på denne hjemmeside. Log ind på snipcart for at løse problemet",
+"Betalingssystemet er ikke tilgjengelig. Kontakt kundestøtte for hjelp!",
 payment_require_title:
-"Betalingssystemet er deaktiveret.",
+"Betalingssystemet er deaktivert.",
 configuration_problem:
-"Konfigurationsproblem",
+"Konfigurasjonsproblem",
 additionnal_information:
-"Skriv en besked, hvis du vil sende feedback eller flere informationer omkring dette problem.",
+"Skriv inn en beskjed med tilbakemelding om problemet.",
 send_error:
-"Send denne besked til webmasteren",
+"Send meldingen til eieren av nettstedet",
 message_sent:
-"Tak for beskeden",
+"Takk for beskjeden",
 paypalexpress_loading:
-"Du vil blive omdirigeret til paypal, for at gennemføre betalingen.",
+"Du omdirigeres til PayPal for å gjennomføre betalingen",
 paypalexpress_cancelled:
-"Du har annulleret ordren. Klik på knappen forneden eller fortsæt med at bestille",
+"Ordren er annulert.",
 retry:
 "Prøv igen",
 error_crawlingfailed_title:
-"Der gik noget galt med at gennemføre din ordre.",
+"Vi klarte ikke å gjennomføre din bestilling.",
 error_crawling_unreachable:
-"Varen <strong>{0}</strong> er ikke tilgængelig <strong>{1}</strong>. Tjek om dit produkt URL er tilgængelig.",
+"Varen <strong>{0}</strong> er ikke tilgjengelig <strong>{1}</strong>. Se om ditt produkt URL er tilgjengelig.",
 error_crawling_product_not_found:
-"varen <strong>{0}</strong> kunne ikke findes <strong>{1}</strong>.",
+"varen <strong>{0}</strong> ble ikke funnet <strong>{1}</strong>.",
 error_crawling_price_not_found:
-"Varen <strong>{0}</strong> har ikke fået en specificeret en pris <strong>{1}</strong>, specificere prisen med data-item-price.",
+"Varen <strong>{0}</strong> har ikke fått spesifert en pris <strong>{1}</strong>, spesifisere prisen med data-item-price.",
 error_crawling_price_doesnot_match:
 "Varens <strong>{0}</strong> pris <strong>{3}</strong> er <strong>{2}</strong> men burde være <strong>{1}</strong>.",
 error_crawlingfailed_title_test:
-"Der gik noget galt med din ordre. Hjemmesiden er pt. i test tilstand, og du er derfor ikke blevet opkrævet beløbet.",
+"Det har oppstått en feil i ordren din! Hjemmesiden er i test-modus, og du har derfor ikke blitt fratrukket beløpet fra din konto.",
 order_completedon:
-"Ordren er gået igennem",
+"Ordren er bekreftet",
 payment_method_status:
-"Transaktion status",
+"Status på betaling",
 payment_method_status_approved:
-"Godkendt",
+"Godkjent",
 order_reference_number:
-"Referencenummer",
+"Referansenummer",
 order_transaction_amount:
-"Transaktionsbeløbet",
+"Transaksjonsbeløp",
 order_invoice_number:
 "Fakturanummer",
 order_authorization_code:
-"Autorisationskode",
+"Autorisasjonskode",
 cart_plans_interval:
-"Interval",
+"Intervall",
 cart_plans_interval_count:
-"Grev",
+"Antall",
 subscription_plan_interval:
-"Planen interval",
+"Abonnementsintervall",
 subscription_plan_interval_count:
-"Planen interval antal",
+"Antall abonnementsintervall",
 plan_amount_per_day:
 "{0} / dag",
 plan_amount_per_week:
-"{0} / uge",
+"{0} / uke",
 plan_amount_per_month:
 "{0} / måned",
 plan_amount_per_year:
 "{0} / år",
 plan_amount_per_day_plural:
-"{0} / {1} dage",
+"{0} / {1} dager",
 plan_amount_per_week_plural:
-"{0} / {1} uger",
+"{0} / {1} uker",
 plan_amount_per_month_plural:
 "{0} / {1} måneder",
 plan_amount_per_year_plural:
-"{0} / {1} år",
-
-
+"{0} / {1} år"
 });
